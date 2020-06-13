@@ -13,5 +13,5 @@ xhost +local:docker
 docker run \
     --volume /tmp/.X11-unix:/tmp/.X11-unix:ro \
     --env DISPLAY=unix$DISPLAY \
-    --name container-name image-id
+    --name container-name och6z/xeyes
 ```
